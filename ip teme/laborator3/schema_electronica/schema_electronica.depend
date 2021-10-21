@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1634204832 source:c:\users\maste\desktop\tema\ip teme\laborator3\schema_electronica\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<utility>
+
