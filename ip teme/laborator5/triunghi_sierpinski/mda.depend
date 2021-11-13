@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1635406660 source:c:\users\maste\desktop\mda\main.cpp
+	<iostream>
+	<graphics.h>
+	<math.h>
+
+1635403060 source:c:\users\maste\desktop\tema\ip teme\laborator5\triunghi_sierpinski\main.cpp
+	<iostream>
+	<graphics.h>
+	<math.h>
+

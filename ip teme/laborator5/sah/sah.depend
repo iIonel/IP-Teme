@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1635970652 source:c:\users\maste\desktop\sah\main.cpp
+	<iostream>
+	<graphics.h>
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+	<math.h>
+
+1635970652 source:c:\users\maste\desktop\tema\ip teme\laborator5\sah\main.cpp
+	<iostream>
+	<graphics.h>
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<vector>
+	<math.h>
+

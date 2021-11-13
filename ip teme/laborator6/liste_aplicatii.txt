@@ -1,0 +1,102 @@
+//1
+void inserare(nod *prim)
+{
+    while(prim) 
+    {
+        if(prim->info % 2 == 0) 
+		{
+            nod *temp = new nod;
+            temp->info = 2*prim->info;
+            temp->urm = prim->urm;
+            prim->urm = temp;
+            prim = prim->urm;
+        }
+		
+        prim = prim->urm;
+    }
+}
+
+void inserare(nod *&prim)
+{
+    nod *aux = prim;
+    if(prim->info % 2 == 0)
+    {
+        nod *temp = new nod;
+        temp->info = 2*prim->info;
+        temp->urm = prim;
+        prim = temp;
+
+        aux = prim->urm;
+    }
+
+    while(aux->urm) 
+	{
+        if(aux->urm->info % 2 == 0) 
+		{
+            nod *temp = new nod;
+            temp->info = 2*aux->urm->info;
+            temp->urm = aux->urm;
+            aux->urm = temp;
+            aux = aux->urm;
+        }
+        aux = aux->urm;
+    }
+}
+
+void inserare(nod *&p, nod *q, int x) 
+{
+    nod *temp = new nod;
+    temp->info = x;
+
+    if(p == q) 
+	{
+        temp->urm = p;
+        p = temp;
+    }
+    else 
+	{
+        nod *aux = p;
+		
+        while(aux->urm != q)
+            aux = aux->urm;
+			
+        temp->urm = aux->urm;
+        aux->urm = temp;
+    }
+}
+
+void inserare(nod * p, nod * q, int x) 
+{
+    while(p != q)
+        p = p->urm;
+    nod *temp = new nod;
+    temp->info = x;
+
+    temp->urm = p->urm;
+
+    p->urm = temp;
+}
+
+void sterge(nod * p, nod * q) 
+{
+    if(p == NULL)
+        return;
+    if(p->urm == NULL) 
+        if(p == q) 
+		{
+            delete p;
+            return;
+        }
+   
+    while(p != NULL and p != q) 
+        p = p->urm;
+    
+    if(p == q )
+        if(p->urm != NULL)
+            if(p->urm->urm != NULL) 
+			{
+                if(p->urm->urm == NULL)
+                    return;
+                p->urm = p->urm->urm;
+            }
+}

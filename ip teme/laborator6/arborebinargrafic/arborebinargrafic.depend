@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1636579658 source:c:\users\maste\desktop\tema\ip teme\laborator6\arborebinargrafic\main.cpp
+	<iostream>
+	<graphics.h>
+	<math.h>
+

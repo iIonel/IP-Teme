@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1636032150 source:c:\users\maste\desktop\tema\ip teme\laborator6\binar_grafica\main.cpp
+	<iostream>
+	<graphics.h>
+
