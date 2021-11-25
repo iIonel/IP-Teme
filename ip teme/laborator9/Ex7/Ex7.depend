@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1637794081 source:c:\users\ricca\desktop\tema\ip teme\laborator9\ex7\main.cpp
+	<iostream>
+	<string.h>
+	<stdio.h>
+

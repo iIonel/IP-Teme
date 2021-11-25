@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1637796200 source:c:\users\ricca\desktop\tema\ip teme\laborator6\ex6\main.cpp
+	<iostream>
+	<stdio.h>
+	<graphics.h>
+	<stdlib.h>
+	<time.h>
+
