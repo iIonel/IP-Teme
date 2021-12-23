@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1640083159 source:c:\users\maste\desktop\mda\main.cpp
+	<iostream>
+	<graphics.h>
+	<winbgim.h>
+
