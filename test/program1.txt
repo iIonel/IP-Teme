@@ -1,16 +1,1 @@
-atat
-mama
-tata
-dragos
 
-ordinea normala: 
-atat
-mama
-tata
-dragos
-
-ordinea inversata: 
-sogard
-atat
-amam
-tata
